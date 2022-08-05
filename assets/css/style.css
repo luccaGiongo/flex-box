@@ -72,7 +72,6 @@ nav a:hover {
     background-image: url('../images/banner.jpg');
     background-position: center;
     background-size: cover;
-    height: 700px;
 }
 
 .column {
@@ -108,8 +107,8 @@ nav a:hover {
 }
 
 .banner-options {
-    height: 240px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .banner-options-1,
@@ -117,6 +116,7 @@ nav a:hover {
 .banner-options-3 {
     flex: 1;
     color: white;
+    min-width: 250px;
 }
 
 .banner-options-title {
